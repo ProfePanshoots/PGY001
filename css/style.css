@@ -1,0 +1,21 @@
+/* ESTILOS PARA EL NAV */
+
+.nav-link {
+    color: white;
+}
+
+.nav-link .fa-solid {
+    transition: all 1s;
+}
+.nav-link:hover .fa-solid {
+    transform: rotate(360deg);
+}
+
+.nav-link:hover {
+    background-color: grey;
+    color: white;
+}
+
+.activo {
+    background-color: grey;
+}
