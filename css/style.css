@@ -7,6 +7,7 @@
 .nav-link .fa-solid {
     transition: all 1s;
 }
+
 .nav-link:hover .fa-solid {
     transform: rotate(360deg);
 }
@@ -18,4 +19,27 @@
 
 .activo {
     background-color: grey;
+}
+
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.col-izq {
+    background-color: rgb(88, 87, 87);
+}
+
+.perfil {
+    background-image: url("../img/fondo.jpg");
+    background-size: cover;
+}
+
+h6{ 
+    color: white;
+}
+
+hr{
+    color: white;
 }
